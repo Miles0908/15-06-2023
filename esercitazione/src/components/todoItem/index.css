@@ -1,0 +1,18 @@
+.TodoItem {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: chocolate;
+  gap: 14px;
+  margin: 6px;
+  border: 1px solid rgba(255, 0, 0, 0.349);
+  box-shadow: 0 0 8px black;
+  border-radius: 12px;
+}
+
+.TodoItem img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}

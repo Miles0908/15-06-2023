@@ -1,0 +1,27 @@
+.Counter{
+    border: 2px solid red;
+    justify-content: space-between;
+    display: flex;
+    width: 200px;
+    margin-top: 16px;
+    padding: 0 12px 12px;
+    height: 80px;
+    box-shadow: 0 0 4px black;
+    border-radius: 12px;
+    
+}
+
+.Counter button{
+    margin-top: 14px;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.Counter button:active{
+    background-color: black;
+    color: white;
+}

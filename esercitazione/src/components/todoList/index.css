@@ -1,0 +1,38 @@
+.TodoList {
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+
+  overflow-y: scroll;
+  background-color: sandybrown;
+  border-radius: 12px;
+}
+.TodoList__info {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  align-items: center;
+
+}
+
+.TodoList__info h4 {
+  margin: 4px 0;
+}
+.TodoList button{
+  border-radius: 12px;
+  box-shadow: 0 0 4px rgb(200, 0, 255);
+  transition: all 0.45s;
+
+}
+.TodoList button:hover{
+ transform: scale(1.2);
+  
+}
+
+@media screen and (min-width: 1500px) {
+  .TodoList {
+    height: 600px;
+  }
+}
